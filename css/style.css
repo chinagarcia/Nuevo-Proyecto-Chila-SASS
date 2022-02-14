@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: black; }
+
+main .img-thumbnail {
+  display: flex;
+  border-radius: 50%;
+  margin: 20px;
+  width: 250px;
+  padding: 10px;
+  justify-content: center; }
+
+main .section {
+  display: flex;
+  justify-content: center; }
+
+footer h2 {
+  display: flex;
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center; }
+
+body .fondoNosotros {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
+
+body .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; }
+  body .logo:hover {
+    transform: rotateX(50deg);
+    transition-duration: 3s; }
+
+main .estiloTexto {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 28px;
+  line-height: 2; }
+
+.nosotrosfooter p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; }
+
+.grilla {
+  padding: 30px; }
+  .grilla .section-grid-productos {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: "prod1 prod2 prod3" "prod4 prod5 prod6";
+    grid-row-gap: 15px; }
+  .grilla .prod1 {
+    grid-area: prod1; }
+  .grilla .prod2 {
+    grid-area: prod2; }
+  .grilla .prod3 {
+    grid-area: prod3; }
+  .grilla .prod4 {
+    grid-area: prod4; }
+  .grilla .prod5 {
+    grid-area: prod5; }
+  .grilla .prod6 {
+    grid-area: prod6; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  flex-direction: column; }
+  body .form {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 90%;
+    margin: 30px auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em; }
+  body .form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%; }
+  body .form__title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em; }
+  body .form__input {
+    font-family: inherit;
+    font-size: 16px;
+    padding: .8em 16px; }
+  body .form__input--message {
+    resize: none;
+    padding: 2em 1.5em;
+    margin-bottom: .5em; }
+  body .form__envio {
+    font-family: inherit;
+    background-color: steelblue;
+    color: white;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 15px; }
+
+main .imagenanexo {
+  width: 600px auto;
+  height: 600px auto;
+  display: flex;
+  justify-content: center;
+  transition-duration: 2s;
+  margin: 30px auto; }
+
+.footerpie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px; }
+
+.footer {
+  font-size: 1em; }
+  .footer ul {
+    display: flex;
+    list-style: none;
+    justify-content: center; }
+  .footer li {
+    margin: 10px 15px; }
+
+/* MEDIA QUERYS */
+/* Estrategia : MOBILE LAST */
+/* Tamaño Mediano TABLET PRODUCTOS */
+@media (max-width: 768px) {
+  .section-grid-productos {
+    grid-template-areas: "prod1 prod2 ." "prod3 prod4 ." "prod5 prod6 ."; } }
+
+/* Tamañp chico: Mobil M MEDIANO */
+@media (max-width: 375px) {
+  .section-grid-productos {
+    grid-template-areas: "prod1 . ." "prod2 . ." "prod3 . ." "prod4 . ." "prod5 . ." "prod6 . ."; } }

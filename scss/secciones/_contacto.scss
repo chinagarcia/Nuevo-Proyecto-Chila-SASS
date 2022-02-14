@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    min-height: 100vh;
+    width: 100%; 
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column; 
+    .form{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: 90%;
+        margin: 30px auto;
+        max-width: 400px;
+        border-radius: 1em;
+        padding: 3.5em 1.5em;
+    }
+    .form__container{
+        width: 100%;
+        display: grid;
+        gap: 1em;
+        grid-auto-columns: 100%;
+    }
+    .form__title{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-bottom: .4em;
+    }
+    .form__input{
+        font-family: inherit;
+        font-size: 16px;
+        padding: .8em 16px;
+    }
+    .form__input--message{
+        resize: none;
+        padding: 2em 1.5em;
+        margin-bottom: .5em;
+    }
+    .form__envio{
+        font-family: inherit;
+        background-color:steelblue;
+        color: white;
+        border: none;
+        font-weight: 300;
+        padding: .7em 0;
+        border-radius: .2em;
+        cursor: pointer;
+        font-weight: 400;
+    }
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px; 
+}

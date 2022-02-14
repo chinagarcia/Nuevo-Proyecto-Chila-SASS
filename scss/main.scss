@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: black
+}
+
+// IMPORTACIONES
+@import './secciones/index';
+@import './secciones/nosotros';
+@import './secciones/productos';
+@import './secciones/contacto';
+@import './secciones/anexo';
+
+
+
+/* MEDIA QUERYS */
+/* Estrategia : MOBILE LAST */
+
+/* Tamaño Mediano TABLET PRODUCTOS */
+@media (max-width: 768px){
+ .section-grid-productos{
+  grid-template-areas: 
+  "prod1 prod2 ."
+  "prod3 prod4 ."
+  "prod5 prod6 .";
+
+ }
+}
+
+/* Tamañp chico: Mobil M MEDIANO */
+@media (max-width: 375px){
+  .section-grid-productos{
+    grid-template-areas: 
+    "prod1 . ."
+    "prod2 . ."
+    "prod3 . ."
+    "prod4 . ."
+    "prod5 . ."
+    "prod6 . .";
+  }
+}

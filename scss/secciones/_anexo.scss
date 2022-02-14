@@ -1,0 +1,28 @@
+main{
+    .imagenanexo{
+        width: 600px auto;
+        height: 600px auto;
+        display: flex;
+        justify-content: center;
+        transition-duration: 2s;
+        margin: 30px auto;
+    }
+}
+.footerpie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px; 
+}
+.footer{
+    font-size: 1em;
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: center;  
+    }
+    li{
+        margin: 10px 15px; 
+    }
+}

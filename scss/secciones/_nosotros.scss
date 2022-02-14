@@ -1,0 +1,33 @@
+// NOSOTROS SCSS
+body{
+    .fondoNosotros{
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        &:hover{
+            transform: rotateX(50deg);
+            transition-duration: 3s; 
+        }
+    }
+}
+
+main{
+    .estiloTexto{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 28px;
+        line-height: 2; 
+      }  
+    }
+
+.nosotrosfooter{
+    p{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 15px;  
+    }
+}
