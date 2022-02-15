@@ -1,0 +1,24 @@
+1. Agregue etiquetas meta keywords:
+Index: mochila, bolso, cartera, riñonera, sin crueldad animal, industria argentina, colores pasteles, artesanal
+Nosotros: mochila, bolso, cartera, riñonera, historia de marca, sin crueldad animal, industria argentina, colores pasteles, artesanal
+Productos: mochila, bolso, cartera, riñonera, sin crueldad animal, industria argentina, colores pasteles, artesanal
+Contacto: mochila, bolso, cartera, riñonera, sin crueldad animal, industria argentina, colores pasteles, artesanal, contacto
+Anexo a tienda: mochila, cartera, riñonera, sin crueldad animal, redes sociales, tienda nube, industria argentina, colores pasteles, artesanal
+
+2. Agregue etiquetas meta description:
+Index: Introducción a la marca Somos Chila a través de foto y su lema: Backpack cruelty free.
+Nosotros: Somos Chila es un emprendimiento de mochilas y carteras (sin crueldad animal) de industria Argentina.
+Productos: Breve presentación de productos por medio de fotos.
+Contacto: Formulario de contacto para comunicarse con la marca.
+Anexo a tienda: Anexo a Tienda Nube y redes sociales.
+
+3. Renombre cada página por la sección correspondiente:
+Index: Somos Chila.
+Nosotros: Nosotros | Somos Chila.
+Productos: Productos | Somos Chila.
+Contacto: Contacto | Somos Chila.
+Anexo a tienda: Anexo a tienda | Somos Chila.
+
+4. Se aplica alt en todas las imágenes del sitio. 
+
+5. Se aplica jerarquia de etiqueta h1 en cada archivo html.

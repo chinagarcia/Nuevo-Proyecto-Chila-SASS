@@ -19,7 +19,7 @@ main .section {
   display: flex;
   justify-content: center; }
 
-footer h2 {
+footer h1 {
   display: flex;
   margin: 20px;
   padding: 10px;
@@ -43,7 +43,7 @@ main .estiloTexto {
   font-size: 28px;
   line-height: 2; }
 
-.nosotrosfooter p {
+.nosotrosfooter h1 {
   display: flex;
   justify-content: center;
   align-items: center;
