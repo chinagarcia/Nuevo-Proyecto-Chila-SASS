@@ -7,6 +7,10 @@
   font-family: 'Open Sans', sans-serif;
   color: black; }
 
+.estiloTexto {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem; }
+
 main .img-thumbnail {
   display: flex;
   border-radius: 50%;
@@ -37,11 +41,6 @@ body .logo {
   body .logo:hover {
     transform: rotateX(50deg);
     transition-duration: 3s; }
-
-main .estiloTexto {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 28px;
-  line-height: 2; }
 
 .nosotrosfooter h1 {
   display: flex;

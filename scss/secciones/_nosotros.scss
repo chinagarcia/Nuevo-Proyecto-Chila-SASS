@@ -15,13 +15,11 @@ body{
     }
 }
 
-main{
-    .estiloTexto{
-        font-family: 'Bebas Neue', cursive;
-        font-size: 28px;
-        line-height: 2; 
-      }  
-    }
+.estiloTexto{
+    @extend %estiloTexto;
+}
+
+
 
 .nosotrosfooter{
     h1{
