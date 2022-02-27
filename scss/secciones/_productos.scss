@@ -9,6 +9,25 @@
         "prod1 prod2 prod3"
         "prod4 prod5 prod6";
         grid-row-gap: 15px;
+
+        @media (max-width: 768px){
+             grid-template-areas: 
+             "prod1 prod2 ."
+             "prod3 prod4 ."
+             "prod5 prod6 .";
+             justify-content: space-evenly;
+           }
+           
+        @media (max-width: 375px){
+               grid-template-areas: 
+               "prod1 . ."
+               "prod2 . ."
+               "prod3 . ."
+               "prod4 . ."
+               "prod5 . ."
+               "prod6 . .";
+               justify-content: center;
+           }
     }
     .prod1{
         grid-area: prod1;
@@ -36,29 +55,3 @@
     align-items: center; 
 }
 
-/* MEDIA QUERYS */
-/* Estrategia : MOBILE LAST */
-
-/* Tamaño Mediano TABLET PRODUCTOS */
-@media (max-width: 768px){
-    .section-grid-productos{
-     grid-template-areas: 
-     "prod1 prod2 ."
-     "prod3 prod4 ."
-     "prod5 prod6 .";
-   
-    }
-   }
-   
-   /* Tamañp chico: Mobil M MEDIANO */
-   @media (max-width: 375px){
-     .section-grid-productos{
-       grid-template-areas: 
-       "prod1 . ."
-       "prod2 . ."
-       "prod3 . ."
-       "prod4 . ."
-       "prod5 . ."
-       "prod6 . .";
-     }
-   }
