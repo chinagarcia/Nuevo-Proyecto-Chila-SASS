@@ -7,6 +7,10 @@ main{
         width: 250px;
         padding: 10px;
         justify-content: center;
+        @media (max-width: 425px){
+            width: 175px;
+            padding: 5px;
+            }
     }
     .section{
         display: flex;

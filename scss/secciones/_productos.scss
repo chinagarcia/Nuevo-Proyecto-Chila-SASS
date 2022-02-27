@@ -49,16 +49,12 @@
     }
 }
 
-.footer{
+.footerProd h1{
     display: flex;
     justify-content: center;
     align-items: center; 
     @media (max-width: 320px){
-        font-size: 21px;
-        }
-
-    @media (max-width: 425px){
-        font-size: 21px;
+        font-size: 18px;
         }
     }
-        
+    

@@ -17,6 +17,10 @@ main .img-thumbnail {
   width: 250px;
   padding: 10px;
   justify-content: center; }
+  @media (max-width: 425px) {
+    main .img-thumbnail {
+      width: 175px;
+      padding: 5px; } }
 
 main .section {
   display: flex;
@@ -86,16 +90,13 @@ body .logo {
   .grilla .prod6 {
     grid-area: prod6; }
 
-.footer {
+.footerProd h1 {
   display: flex;
   justify-content: center;
   align-items: center; }
   @media (max-width: 320px) {
-    .footer {
-      font-size: 21px; } }
-  @media (max-width: 425px) {
-    .footer {
-      font-size: 21px; } }
+    .footerProd h1 {
+      font-size: 18px; } }
 
 body {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
@@ -160,6 +161,9 @@ main .imagenanexo {
   align-items: center;
   padding: 15px;
   margin: 10px; }
+  @media (max-width: 320px) {
+    .footerpie {
+      font-size: 21px; } }
 
 .footer ul {
   display: flex;
