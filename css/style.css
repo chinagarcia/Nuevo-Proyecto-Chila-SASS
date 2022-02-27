@@ -28,6 +28,9 @@ footer h1 {
   padding: 10px;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 375px) {
+    footer h1 {
+      font-size: 21px; } }
 
 body .fondoNosotros {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); }
@@ -49,6 +52,9 @@ body .logo {
   justify-content: center;
   align-items: center;
   padding: 15px; }
+  @media (max-width: 375px) {
+    .nosotrosfooter h1 {
+      font-size: 21px; } }
 
 .grilla {
   padding: 30px; }
@@ -84,6 +90,12 @@ body .logo {
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 320px) {
+    .footer {
+      font-size: 21px; } }
+  @media (max-width: 425px) {
+    .footer {
+      font-size: 21px; } }
 
 body {
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
@@ -149,11 +161,10 @@ main .imagenanexo {
   padding: 15px;
   margin: 10px; }
 
-.footer {
-  font-size: 1em; }
-  .footer ul {
-    display: flex;
-    list-style: none;
-    justify-content: center; }
-  .footer li {
-    margin: 10px 15px; }
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center; }
+
+.footer li {
+  margin: 10px 15px; }

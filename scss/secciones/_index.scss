@@ -21,8 +21,9 @@ footer{
         padding: 10px;
         justify-content: center;
         align-items: center;  
+
+        @media (max-width: 375px){
+         font-size: 21px;
+        }
     }
 }
-
-
-
